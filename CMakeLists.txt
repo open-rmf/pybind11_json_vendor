@@ -18,9 +18,13 @@ if(NOT pybind11_json_FOUND)
   set(setup_install_dir "${CMAKE_CURRENT_BINARY_DIR}/pybind11_json")
 
   include(ExternalProject)
-  ExternalProject_Add(pybind11_json
+  set(pybind11_json_version 0fbbe3bbb27bd07a5ec7d71cbb1f17eaf4d37702)
+  ExternalProject_Add(pybind11_json-${pybind11_json_version}
     GIT_REPOSITORY https://github.com/pybind/pybind11_json.git
-    GIT_TAG 0.2.11
+    GIT_TAG ${pybind11_json_version}
+    GIT_CONFIG advice.detachedHead=false
+    # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
+    UPDATE_COMMAND ""
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${setup_install_dir}
       -DBUILD_SHARED_LIBS=true
