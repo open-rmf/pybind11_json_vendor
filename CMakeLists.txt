@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(pybind11_json_vendor)
 
 find_package(ament_cmake REQUIRED)
+find_package(nlohmann_json REQUIRED)
 
 option(FORCE_BUILD_VENDOR_PKG
   "Build pybind11_json from source, even if system-install package is available"
