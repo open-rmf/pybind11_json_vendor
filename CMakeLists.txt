@@ -15,6 +15,8 @@ endif()
 
 
 if(NOT pybind11_json_FOUND)
+  find_package(pybind11_vendor REQUIRED)
+  find_package(pybind11 REQUIRED)
 
   set(setup_install_dir "${CMAKE_CURRENT_BINARY_DIR}/pybind11_json")
 
@@ -29,6 +31,7 @@ if(NOT pybind11_json_FOUND)
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${setup_install_dir}
       -DBUILD_SHARED_LIBS=true
+      -Dpybind11_DIR=${pybind11_DIR}
     INSTALL_DIR ${setup_install_dir}
   )  
 
