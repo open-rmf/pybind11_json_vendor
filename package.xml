@@ -8,7 +8,7 @@
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>git</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
   <depend>nlohmann-json-dev</depend>
   <depend>pybind11_vendor</depend>
