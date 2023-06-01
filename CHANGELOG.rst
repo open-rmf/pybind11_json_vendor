@@ -2,8 +2,8 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.3 (2023-06-01)
+------------------
 * Update maintainer
 * Switch CHANGELOG to rst format.
 * Contributors: Yadunund
