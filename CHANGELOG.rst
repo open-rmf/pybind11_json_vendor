@@ -2,6 +2,13 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Switch to rst changelogs
+* Update maintainer
+* Add initial build workflow (`#9 <https://github.com/open-rmf/pybind11_json_vendor/issues/9>`_)
+* Contributors: Esteban Martinena, Yadunund
+
 0.2.2 (2022-12-07)
 ------------------
 * Support vendor-provided pybind11 upstream (`#8 <https://github.com/open-rmf/pybind11_json_vendor/pull/8>`_)
