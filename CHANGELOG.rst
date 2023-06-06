@@ -2,8 +2,8 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2023-06-06)
+------------------
 * Switch to rst changelogs
 * Update maintainer
 * Add initial build workflow (`#9 <https://github.com/open-rmf/pybind11_json_vendor/issues/9>`_)
