@@ -2,6 +2,9 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.3.0 (2023-06-06)
 ------------------
 * Switch to rst changelogs
