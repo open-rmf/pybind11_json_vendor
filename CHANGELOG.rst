@@ -2,6 +2,9 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2024-06-12)
+------------------
+
 0.4.1 (2023-08-10)
 ------------------
 * Switch to ament_cmake_vendor_package (`#11 <https://github.com/open-rmf/pybind11_json_vendor/pull/11>`_)
