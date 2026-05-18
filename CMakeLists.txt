@@ -10,7 +10,7 @@ find_package(pybind11_json QUIET)
 ament_vendor(pybind11_json_vendor
   SATISFIED ${pybind11_json_FOUND}
   VCS_URL https://github.com/pybind/pybind11_json.git
-  VCS_VERSION 0.2.11
+  VCS_VERSION 0.2.15
 )
 
 ament_package()

@@ -1,7 +1,5 @@
 > [!WARNING]
-> As described in [#16](https://github.com/open-rmf/pybind11_json_vendor/issues/16) this repo should no longer be needed. You can use the [`pybind11-json-dev`](https://github.com/ros/rosdistro/pull/40223/files) key in rosdep instead.
->
-> Therefore this repo is archived and will not be undergoing any more updates or releases.
+> [A packaging problem upstream in Ubuntu Resolute](https://openrobotics.zulipchat.com/#narrow/channel/526042-Infrastructure-General/topic/Conflicting.20version.20of.20nlohmann-json.20in.20Resolute/with/593414087) has made it necessary to un-archive this package.
 
 # A vendor package for `pybind11_json`
 
