@@ -2,8 +2,8 @@
 Changelog for package pybind11_json_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.0 (2026-05-19)
+------------------
 * Un-archive repo for Lyrical (`#18 <https://github.com/open-rmf/pybind11_json_vendor/issues/18>`_)
 * Update README to reflect the reason for archiving (`#17 <https://github.com/open-rmf/pybind11_json_vendor/issues/17>`_)
 * Add triage github action (`#15 <https://github.com/open-rmf/pybind11_json_vendor/issues/15>`_)
